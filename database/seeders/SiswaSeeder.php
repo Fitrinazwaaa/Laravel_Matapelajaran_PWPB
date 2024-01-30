@@ -16,10 +16,10 @@ class SiswaSeeder extends Seeder
         Siswa::create([
             'nis' => '2223101266',
             'nisn' => '0192834746',
-            'nama' => 'Fitri Njwa',
+            'nama' => 'Fitri Najwa',
             'kelas' => 'XI RPL 2',
             'jenis_kelamin' => 'perempuan',
-            'alamat' => 'Kawali-Ciamis',
+            'alamat' => 'Kawali',
             'no_hp' => '082115478426'
         ]);
     }
