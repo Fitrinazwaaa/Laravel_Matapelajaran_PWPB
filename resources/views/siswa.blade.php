@@ -37,7 +37,8 @@
                 <td>{{ $item->jenis_kelamin }}</td>
                 <td>{{ $item->alamat }}</td>
                 <td>{{ $item->no_hp }}</td>
-                <td><a href="{{ route('edit', $item->id) }}">Ubah</a></td>
+                <td><a href="{{ route('edit', $item->id) }}">Ubah</a>
+                    <a href="{{ route('delete', $item->id) }}">Hapus</a></td>
             </tr>
             @endforeach
         </tbody>

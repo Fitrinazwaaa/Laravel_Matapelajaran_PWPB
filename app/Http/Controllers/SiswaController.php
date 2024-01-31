@@ -96,6 +96,19 @@ class SiswaController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $model = Siswa::find($id)->delete();
+        if($model){
+            return redirect()->route('siswa');
+        }
+    }
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function register()
+    {
+        return view('register');
     }
 }

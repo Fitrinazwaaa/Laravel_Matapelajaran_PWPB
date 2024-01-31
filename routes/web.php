@@ -24,3 +24,6 @@ Route::get('/Membuat', [SiswaController::class, 'create'])->name('create');
 Route::post('/store', [SiswaController::class, 'store'])->name('store');
 Route::get('/edit/{id}', [SiswaController::class, 'edit'])->name('edit');
 Route::put('/update/{id}', [SiswaController::class, 'update'])->name('update');
+Route::get('/delete/{id}', [SiswaController::class, 'destroy'])->name('delete');
+Route::get('/login', [SiswaController::class, 'login'])->name('login');
+Route::get('/register', [SiswaController::class, 'register'])->name('register');
