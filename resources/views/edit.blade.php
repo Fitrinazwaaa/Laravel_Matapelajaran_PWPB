@@ -43,7 +43,7 @@
         <input type="text" name="no_hp" value="{{$data->no_hp}}" class="form-control" id="no_hp" placeholder="08**********">
     </div>
     <div class="mb-3">
-        <button type="submit" class="btn btn-success">Tambahakan</button>
+        <button type="submit" class="btn btn-success">Edit</button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
