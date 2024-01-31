@@ -15,7 +15,7 @@
     @method('PUT')
     @csrf
     <div class="mb-3">
-        <label for="nis" class="form-label">NIS</label>
+        <label for="nis" class="form-label">nis</label>
         <input type="text" name="nis" value="{{$data->nis}}" class="form-control" id="nis" placeholder="NIS">
     </div>
     <div class="mb-3">

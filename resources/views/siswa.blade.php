@@ -22,8 +22,8 @@
                 <th scope="col">KELAS</th>
                 <th scope="col">JENIS KELAMIN</th>
                 <th scope="col">ALAMAT</th>
-                <th scope="col">NO HP</th>
-                <th scope="col">Aksi</th>
+                <th scope="col">NOMOR HP</th>
+                <th scope="col">AKSI</th>
             </tr>
         </thead>
         <tbody>

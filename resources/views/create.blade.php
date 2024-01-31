@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1 align="center">Tambah Data Siswa</h1>
+    <h1 align="center">Tambahan Data Siswa</h1>
     <div class="container" mx-5>
     <form action="{{ route('store') }}" method="post">
     @csrf

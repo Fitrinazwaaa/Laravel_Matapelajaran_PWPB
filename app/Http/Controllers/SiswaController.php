@@ -36,7 +36,7 @@ class SiswaController extends Controller
             'kelas' => ['required'],
             'jenis_kelamin' => ['required'],
             'alamat' => ['required'],
-            'no_hp' => ['required'],
+            'no_hp' => ['required']
         ]);
 
         //proses tambah data
@@ -47,7 +47,7 @@ class SiswaController extends Controller
             'kelas' => $request->kelas,
             'jenis_kelamin' => $request->jenis_kelamin,
             'alamat' => $request->alamat,
-            'no_hp' => $request->no_hp,
+            'no_hp' => $request->no_hp
         ]);
 
         return redirect()->route('siswa');
